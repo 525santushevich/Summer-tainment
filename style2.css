@@ -1,0 +1,17 @@
+body {
+    background-image: url('/images/summit.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 50px;
+}
+
+.header {
+    font-size: 100px;
+    font-family: 'Caveat', cursive;
+    text-shadow: 2px 2px 2px rgb(218, 219, 223);
+    color: rgb(255, 255, 255);
+    margin-left: 2%;
+}

@@ -1,0 +1,61 @@
+body {
+    background-image: url('/images/newyork.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 50px;
+}
+
+.center-content {
+    text-align: center;
+    margin-top: 20%;
+}
+
+/* Styling for the header */
+.header {
+    font-size: 125px;
+    font-family: 'Lora', serif;   
+     text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-left: 22%;
+    margin-top: 2%;
+}
+
+/*Styling for P tag*/
+.p {
+    font-size: 50px;
+    font-family: 'Patrick Hand', cursive;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-left: 38%;
+}
+
+/* Styling for the button */
+.btn {
+    margin-left: 19%;
+    margin-top: 5%;
+    height: 50%;
+    width: 50%;
+}
+
+.btn-primary {
+    background-color: #000000;
+    border-color: #ffffff;
+    font-family: 'Itim', cursive;
+}
+
+.btn-primary:hover {
+    background-color: #383638;
+    border-color: #ffffff;
+    font-family: 'Itim', cursive;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    color: white;
+    border-color: rgb(255, 255, 255);
+    background-color: none;
+}
+
+
