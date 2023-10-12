@@ -1,5 +1,5 @@
 body {
-    background-image: url('/images/newyork.webp');
+    background-color:rgb(148, 212, 231);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -17,10 +17,10 @@ body {
 .header {
     font-size: 125px;
     font-family: 'Lora', serif;   
-     text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    margin-left: 22%;
-    margin-top: 2%;
+    margin: 0 auto;
+    
 }
 
 /*Styling for P tag*/
@@ -29,33 +29,31 @@ body {
     font-family: 'Patrick Hand', cursive;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    margin-left: 38%;
+}
+/* image style */
+.container {
+  display: inline-block;
 }
 
-/* Styling for the button */
-.btn {
-    margin-left: 19%;
-    margin-top: 5%;
-    height: 50%;
-    width: 50%;
+.lil {
+  height: 110%;
+  width: 18%;
+  margin-top: 3%;
+  box-shadow: 3px 3px 3px white;
 }
 
-.btn-primary {
-    background-color: #000000;
-    border-color: #ffffff;
-    font-family: 'Itim', cursive;
+.mon {
+  height: 110%;
+  width: 23%;
+  margin-top: 3%;
+  box-shadow: 3px 3px 3px white;
+  margin-left: 3%;
 }
 
-.btn-primary:hover {
-    background-color: #383638;
-    border-color: #ffffff;
-    font-family: 'Itim', cursive;
+.joce {
+  height: 110%;
+  width: 30%;
+  margin-top: 3%;
+  box-shadow: 3px 3px 3px white;
+  margin-left: 3%;
 }
-
-.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
-    color: white;
-    border-color: rgb(255, 255, 255);
-    background-color: none;
-}
-
-
